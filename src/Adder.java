@@ -1,6 +1,6 @@
 public class Adder {
-    public int add (int a,int b){
+    public void add (int a,int b){
         int c = a+b;
-        return c;
+        System.out.println(c);
     }
 }
